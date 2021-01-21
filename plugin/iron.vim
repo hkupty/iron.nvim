@@ -1,10 +1,7 @@
 function! s:save_pos()
   let s:view = winsaveview()
 
-  "Indexes from winsaveview are 1-based
-  "extmark is 0-based
-
-  call nvim_buf_set_extmark(0, nvim_create_namespace('iron'), s:view.lnum - 1, s:view.col - 1, {'id': 20})
+  call nvim_buf_set_extmark(0, nvim_create_namespace('iron'), s:view.lnum, s:view.col, {'id': 20})
 endfunction
 
 function! s:ironSendMotion(mode)
