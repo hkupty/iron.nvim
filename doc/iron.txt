@@ -40,6 +40,8 @@ Currently, Iron has support for the following programming languages:
   - clojure
     - boot
     - lein
+  - cpp
+    - root https://root.cern.ch/
   - csh
     - csh
     - tcsh

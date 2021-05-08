@@ -2,6 +2,7 @@
 
 local fts = {
   clojure = require("iron.fts.clojure"),
+  cpp = require("iron.fts.cpp"),
   csh = require("iron.fts.csh"),
   elixir = require("iron.fts.elixir"),
   elm = require("iron.fts.elm"),
